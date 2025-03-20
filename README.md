@@ -2,7 +2,7 @@
 **3D-Druck-Schachspiel mit interaktiver Beleuchtung**
 
 ## **Projektbeschreibung**  
-Im Rahmen eines Studienprojektes wird ein interaktives Schachspiel entwickelt, das durch ein individuell steuerbares Lichtsystem modernisiert wird. Ziel des Projekts ist es, ein möglichst kostengünstiges, modular aufgebautes und individuell anpassbares Schachbrett zu entwerfen, das sich sowohl für den Nachbau durch 3D-Druck Hobbyisten als auch für eine quelloffende Weiterentwicklung durch Schachintusiasten eignet.
+Im Rahmen eines Studienprojektes wird ein interaktives Schachspiel entwickelt, das durch ein individuell steuerbares Lichtsystem modernisiert wird. Ziel des Projekts ist es, ein möglichst kostengünstiges, modular aufgebautes und individuell anpassbares Schachbrett zu entwerfen, das sich sowohl für den Nachbau durch 3D-Druck Hobbyisten als auch für eine quelloffende Weiterentwicklung durch Schachenthusiasten eignet.
 
 ## **Kernfunktionen**  
 - **3D-gedrucktes Design**: Alle relevanten Teile, einschließlich Figuren und Brett, werden selbst hergestellt und können nach individuellen Vorlieben angepasst werden.  
@@ -26,3 +26,5 @@ Das Schachbrett wird mit einer eingebetteten Mikrocontroller-Lösung, z. B. eine
 
 ## **Warum?**  
 Dieses Projekt verbindet klassisches Schach mit moderner Technologie und bietet eine spannende Herausforderung in den Bereichen 3D-Druck, Mikrocontroller-Programmierung und Webentwicklung. Durch den modularen Ansatz eignet es sich sowohl für individuelle Anpassungen als auch als Open-Source-Lösung für die Maker-Community.  
+
+![3D-Modell dee Spielfläche](./README_source/spielfeld_cad.jpeg)
