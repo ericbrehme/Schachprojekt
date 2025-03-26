@@ -14,6 +14,7 @@ Im Rahmen eines Studienprojektes wird ein interaktives Schachspiel entwickelt, d
   - Aufzeichnung des Spielverlaufs zur Analyse  
 
 ## **Mögliche zusätzliche Features**  
+
 - **Spielen gegen eine KI**: Die Züge der KI werden per Lichtsignal auf dem Schachbrett dargestellt, sodass der Spieler sie physisch für den Computer ausführt.  
 - **Briefschach-Modus**: Zwei Schachbretter können gekoppelt werden, sodass Fernpartien über die Web-App möglich sind. Die Züge des Gegners werden automatisch auf dem eigenen Brett visualisiert.
 - **Alternative-Spielmodi**: Spielsonderformen wie Blitzschach
@@ -22,9 +23,9 @@ Im Rahmen eines Studienprojektes wird ein interaktives Schachspiel entwickelt, d
 - **Lichtspiel**: Mit der Lichtmatrix können kleine Animationen auf dem Spielfeld dargstellt werden. Diese könnten auf Spielereignisse reagieren.
 
 ## **Technische Umsetzung WIP**  
-Das Schachbrett wird mit einer eingebetteten Mikrocontroller-Lösung, z. B. einem ESP32, gesteuert. Die Felder sollen mit adressierbaren LED-Strips illuminiert weden. Die Weboberfläche wird lokal über die ESP32-WLAN-Funktionalität bereitgestellt, um eine einfache Bedienung und Anpassung zu ermöglichen.  
+ Das Schachbrett wird mit einer eingebetteten Mikrocontroller-Lösung, z. B. einem ESP32, gesteuert. Die Felder sollen mit adressierbaren RGB-LEDs ausgestattet werden, die über ein Webinterface konfiguriert werden können. Die Kommunikation zwischen Mikrocontroller und Webinterface erfolgt über WLAN. Die Stromversorgung erfolgt über ein USB-C-Kabel. Die LEDs und Spielfigursensorik sollen über eine Matrix angeordnet werden, um die Anzahl der benötigten Pins zu reduzieren. Dies soll über das Design eines eigenen PCBs realisiert werden.
 
 ## **Warum?**  
 Dieses Projekt verbindet klassisches Schach mit moderner Technologie und bietet eine spannende Herausforderung in den Bereichen 3D-Druck, Mikrocontroller-Programmierung und Webentwicklung. Durch den modularen Ansatz eignet es sich sowohl für individuelle Anpassungen als auch als Open-Source-Lösung für die Maker-Community.  
 
-![3D-Modell dee Spielfläche](./README_source/spielfeld_cad.jpeg)
+![3D-Modell der Spielfläche](./README_source/spielfeld_cad.jpeg)
